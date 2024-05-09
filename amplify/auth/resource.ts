@@ -11,55 +11,67 @@ export const auth = defineAuth({
   userAttributes: {
     preferredUsername: {
       mutable: true,
-      required: false,
+      required: true,
     },
     address: {
       mutable: true,
-      required: false,
+      required: true,
     },
     birthdate: {
       mutable: true,
-      required: false,
+      required: true,
     },
     gender: {
       mutable: true,
-      required: false,
+      required: true,
     },
     givenName: {
       mutable: true,
-      required: false,
+      required: true,
     },
     familyName: {
       mutable: true,
-      required: false,
+      required: true,
     },
     locale: {
       mutable: true,
-      required: false,
+      required: true,
     },
     middleName: {
       mutable: true,
-      required: false,
+      required: true,
+    },
+    fullname: {
+      mutable: true,
+      required: true,
     },
     nickname: {
       mutable: true,
-      required: false,
+      required: true,
     },
     phoneNumber: {
       mutable: true,
-      required: false,
+      required: true,
     },
     profilePicture: {
       mutable: true,
-      required: false,
+      required: true,
     },
     profilePage: {
       mutable: true,
-      required: false,
+      required: true,
     },
     website: {
       mutable: true,
-      required: false,
+      required: true,
+    },
+    timezone: {
+      mutable: true,
+      required: true,
+    },
+    lastUpdateTime: {
+      mutable: true,
+      required: true,
     },
   },
 });
